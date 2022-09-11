@@ -1,7 +1,7 @@
 $navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
-@import "bootstrap"; 
+@import "bootstrap";
 
 #logo {
     float: left;
@@ -36,13 +36,24 @@ $navbar-default-bg: black;
     font-weight: bold;
 }
 
-.article-actions{
+.article-actions {
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
 }
 
 .descritpion {
     margin-top: 0px;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .btn-xlarge {
@@ -67,12 +78,10 @@ footer small {
 
 footer ul {
     float: right;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 footer ul li {
     float: left;
-    margin-left: 15px    ;
+    margin-left: 15px;
 }
-
-
